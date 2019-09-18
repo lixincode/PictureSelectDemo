@@ -1,0 +1,50 @@
+.picture_select {
+
+  .select_num{
+
+    .all_select {
+      width: 20px;
+      height: 20px;
+      vertical-align: middle;
+      cursor: pointer;
+    }
+
+    span{
+      font-size: 12px;
+    }
+  }
+
+  .select_list{
+
+    .img_div {
+      float: left;
+      margin: 10px;
+      position: relative;
+
+
+      img{
+        margin: 0;
+        padding: 0;
+      }
+
+      input{
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        left: 2px;
+        top: 2px;
+        cursor: pointer;
+      }
+    }
+
+  }
+
+  .select_list:after{
+    content:'';
+    display:block;
+    height:0;
+    clear:both;
+    overflow:hidden;
+  }
+
+}
